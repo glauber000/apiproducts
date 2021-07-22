@@ -12,6 +12,8 @@ app.use(express.json())
 app.use(cors())
 app.use(routes)
 
-app.listen(80, () =>{
-    console.log('OK!')
+const PORT = process.env.PORT || 8877
+
+app.listen(PORT, () =>{
+    console.log(PORT)
 })
