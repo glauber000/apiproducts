@@ -4,7 +4,7 @@
   "description": "Api de produtos",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +14,15 @@
     "express": "^4.17.1",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.12"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glauber000/apiproducts.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/glauber000/apiproducts/issues"
+  },
+  "homepage": "https://github.com/glauber000/apiproducts#readme"
 }
